@@ -102,3 +102,4 @@ Nous avons d ́eveloppé une classe **CInterfacePricer** pour mettre plus au cla
 
 ## Appendix A  Exemples d'utilisation du projet
 
+![Screenshot](Capture1.png)
