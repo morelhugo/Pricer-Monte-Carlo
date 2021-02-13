@@ -64,4 +64,12 @@ Où:
 - r est le taux sans risque
 - T est la maturité
 - <img src="https://latex.codecogs.com/gif.latex?\mathbb{Q}" title="\mathbb{Q}" align="center"/> est la mesure de probabilité risque neutre
+- S est le prix de l'actif risqué, soit le sous-jacent
+- K est la valeur du Strike
+- <img src="https://latex.codecogs.com/gif.latex?\sigma" title="\sigma" align="center"/> est la volatilité du sous-jacent
+- <img src="https://latex.codecogs.com/gif.latex?W_T" title="W_T" align="center"/> est un mouvement brownien géométrique
+
+Rappelons que par La Loi des Grands Nombres on a:
+
+
 
