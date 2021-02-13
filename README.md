@@ -98,3 +98,7 @@ Ce code a été d ́eveloppé dans l’optique de pouvoir rajouter d’autres cl
 ## 4) A Propos du Main et de l'interface utilisateur
 
 Nous avons d ́eveloppé une classe **CInterfacePricer** pour mettre plus au clair notre code. En effet, en mettant des cin au lieu de laisser l’utilisateur modifier le main, cela permet de ne pas faire d’erreur opérationnelle lors de la manipulation. Le code permet d’être bien plus clair lors de son utilisation ce qui permet de directement calculer son pay-off. Si nous n’avions pas fait d’interface utilisateur, ce dernier aurait dû aller dans le main pour mettre à la main à la ligne correspondante les paramètres d ́esirés. L’objectif étant donc juste de lancer le code et de lire les commandes indiquées. Une précision est a apporter, c’est que le code ne prend pas les paramètres en pourcentage donc la maturité est exprimée en ann ́ee, et les volatilités et taux d’intérêt sont en base 1.
+
+
+## Appendix A  Exemples d'utilisation du projet
+
