@@ -18,7 +18,7 @@ Pour pouvoir simuler notre Monte-Carlo il nous faut simuler des lois et des mouv
 - **CNormale** : Classe fille, cette classe hérite de **CProbaLawWithMoment** et permet de simuler la loi normale via la méthode de **Box-Muller**. Rapidement, sa définition mathématique est la suivante. Soient <img src="https://latex.codecogs.com/gif.latex?U_1" title="U_1" align="center" />
  et <img src="https://latex.codecogs.com/gif.latex?U_2" title="U_2" align="center" /> deux variables aléatoires indépendantes uniformément distribuées dans ]0,1]. Soient,
 <p align="center"> 
- <img src="https://latex.codecogs.com/gif.latex?Z_0&space;=&space;R*cos(\theta)&space;=&space;\sqrt{-2ln(U_1)}*cos(2\pi&space;*U_2)" title="Z_0 = R*cos(\theta) =   \sqrt{-2ln(U_1)}*cos(2\pi *U_2)" align="center"/>
+ <img href="https://fr.wikipedia.org/wiki/M%C3%A9thode_de_Box-Muller" src="https://latex.codecogs.com/gif.latex?Z_0&space;=&space;R*cos(\theta)&space;=&space;\sqrt{-2ln(U_1)}*cos(2\pi&space;*U_2)" title="Z_0 = R*cos(\theta) =   \sqrt{-2ln(U_1)}*cos(2\pi *U_2)" align="center"/>
 </p>
     et
 <p align="center"> 
