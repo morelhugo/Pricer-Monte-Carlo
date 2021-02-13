@@ -71,7 +71,7 @@ Où:
 
 Rappelons que par La Loi des Grands Nombres on a:
 
-Posons <img src="https://latex.codecogs.com/gif.latex?(\xi)^{(I)}_{I\geqslant1}" title="(\xi)^{(I)}_{I\geqslant1}" align="center"/> indépendamment et identiquement distribuées (i.i.d) et d'espérance fini <img src="https://latex.codecogs.com/gif.latex?E[\mid&space;\xi^{(I)}\mid]&space;<&space;\infty" title="E[\mid \xi^{(I)}\mid] < \infty" align="center"/>.
+Posons <img src="https://latex.codecogs.com/gif.latex?(\xi)^{(I)}_{I\geqslant1}" title="(\xi)^{(I)}_{I\geqslant1}" align="center"/> indépendamment et identiquement distribuées (i.i.d) et d'espérance finie <img src="https://latex.codecogs.com/gif.latex?E[\mid&space;\xi^{(I)}\mid]&space;<&space;\infty" title="E[\mid \xi^{(I)}\mid] < \infty" align="center"/>.
 
 De plus, considérons <img src="https://latex.codecogs.com/gif.latex?\hat{S}&space;=&space;\frac{1}{N}&space;\sum_{I=1}^{N}\xi^{(I)}" title="\hat{S} = \frac{1}{N} \sum_{I=1}^{N}\xi^{(I)}" align="center"/>, alors :
 
@@ -79,3 +79,11 @@ De plus, considérons <img src="https://latex.codecogs.com/gif.latex?\hat{S}&spa
 <img src="https://latex.codecogs.com/gif.latex?\lim_{N->&plus;\infty&space;}&space;\hat{S}&space;=&space;E[\xi^{(I)}]" title="\lim_{N->+\infty } \hat{S} = E[\xi^{(I)}]" align="center"/>
 </p>
 
+Ceci nous donne donc l'estimateur de Monte-Carlo du prix tel que :
+<p align="center"> 
+ <img src="https://latex.codecogs.com/gif.latex?\hat{P}_N&space;=&space;\frac{1}{N}\sum_{I=1}^{N}P^{(I)}" title="\hat{P}_N = \frac{1}{N}\sum_{I=1}^{N}P^{(I)}" align="center"/>
+</p>
+
+<p align="center"> 
+ <img src="https://latex.codecogs.com/gif.latex?P^{(I)}&space;=&space;e^{-rT}(S_0e^{\sigma&space;\sqrt{T}&space;N^{(I)}&plus;(r-\sigma^2/2)T}-K)^{&plus;}" title="P^{(I)} = e^{-rT}(S_0e^{\sigma \sqrt{T} N^{(I)}+(r-\sigma^2/2)T}-K)^{+}" align="center"/>
+</p>
