@@ -20,7 +20,7 @@ Pour pouvoir simuler notre Monte-Carlo il nous faut simuler des lois et des mouv
 <p align="center"> 
  <img src="https://latex.codecogs.com/gif.latex?Z_0&space;=&space;R*cos(\theta)&space;=&space;\sqrt{-2ln(U_1)}*cos(2\pi&space;*U_2)" title="Z_0 = R*cos(\theta) =   \sqrt{-2ln(U_1)}*cos(2\pi *U_2)" align="center"/>
 </p>
-
+et
 <p align="center"> 
  <img src="https://latex.codecogs.com/gif.latex?Z_1&space;=&space;R*cos(\theta)&space;=&space;\sqrt{-2ln(U_1)}*cos(2\pi&space;*U_2)" title="Z_1 = R*cos(\theta) = \sqrt{-2ln(U_1)}*cos(2\pi *U_2)" align="center"/>
 </p>
