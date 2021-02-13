@@ -71,7 +71,7 @@ Où:
 
 Rappelons que par La Loi des Grands Nombres on a:
 
-Posons <img src="https://latex.codecogs.com/gif.latex?(\xi)^{(I)}_{I\geqslant1}" title="(\xi)^{(I)}_{I\geqslant1}" align="center"/> indépendamment et identiquement distribuées (i.i.d) et d'espérance de fini <img src="https://latex.codecogs.com/gif.latex?E[\mid&space;\xi^{(I)}\mid]&space;<&space;\infty" title="E[\mid \xi^{(I)}\mid] < \infty" align="center"/>.
+Posons <img src="https://latex.codecogs.com/gif.latex?(\xi)^{(I)}_{I\geqslant1}" title="(\xi)^{(I)}_{I\geqslant1}" align="center"/> indépendamment et identiquement distribuées (i.i.d) et d'espérance fini <img src="https://latex.codecogs.com/gif.latex?E[\mid&space;\xi^{(I)}\mid]&space;<&space;\infty" title="E[\mid \xi^{(I)}\mid] < \infty" align="center"/>.
 
 De plus, considérons <img src="https://latex.codecogs.com/gif.latex?\hat{S}&space;=&space;\frac{1}{N}&space;\sum_{I=1}^{N}\xi^{(I)}" title="\hat{S} = \frac{1}{N} \sum_{I=1}^{N}\xi^{(I)}" align="center"/>, alors :
 
