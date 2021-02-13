@@ -105,11 +105,15 @@ Nous avons d ́eveloppé une classe **CInterfacePricer** pour mettre plus au cla
 
 <p align="center">
  <img src="Image/Capture1.png" width="350">
+</p>
+<p align="center">
  Figure 1: Exemple d'utilisation du code avec l'interface utilisateur
 </p>
 
 
 <p align="center">
  <img src="Image/Capture2.png" width="350">
+</p>
+<p align="center">
  Figure 2: Exemple d'erreur de choix de paramètres
 </p>
