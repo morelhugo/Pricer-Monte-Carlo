@@ -87,3 +87,14 @@ Ceci nous donne donc l'estimateur de Monte-Carlo du prix tel que :
 <p align="center"> 
  <img src="https://latex.codecogs.com/gif.latex?P^{(I)}&space;=&space;e^{-rT}(S_0e^{\sigma&space;\sqrt{T}&space;N^{(I)}&plus;(r-\sigma^2/2)T}-K)^{&plus;}" title="P^{(I)} = e^{-rT}(S_0e^{\sigma \sqrt{T} N^{(I)}+(r-\sigma^2/2)T}-K)^{+}" align="center"/>
 </p>
+
+### 3.2) La classe Monte-Carlo
+
+Les classes en rapport avec Monte-Carlo :
+- **CMonteCarloMethod** : Cette classe permet de calculer le prix d’option via la méthode de Monte-Carlo, elle permet aussi de connaître l’erreur d’estimation. En l’occurrence ici nous nous servons pour calculer une option vanille de type call/put. Nous avons implémenter la méthode pour calculer le prix et l’intervalle de confiance.
+
+Ce code a été d ́eveloppé dans l’optique de pouvoir rajouter d’autres classes sans avoir besoin de le re- structurer. En effet, nous pouvons voir que grâce au polymorphisme et à la dérivation des classes cela simplifie l’ajout de nouveau process et de pay-off. Nous pouvons donc imaginer l’ajout d’options a barrières ou l’ajout de processus d’Ornstein-Uhlenbec. Cela permet de préparer l’évolution du code à de nouvelles fonctionnalités sans tout restructurer ce dernier.
+
+## 4) A Propos du Main et de l'interface utilisateur
+
+Nous avons d ́eveloppé une classe **CInterfacePricer** pour mettre plus au clair notre code. En effet, en mettant des cin au lieu de laisser l’utilisateur modifier le main, cela permet de ne pas faire d’erreur opérationnelle lors de la manipulation. Le code permet d’être bien plus clair lors de son utilisation ce qui permet de directement calculer son pay-off. Si nous n’avions pas fait d’interface utilisateur, ce dernier aurait dû aller dans le main pour mettre à la main à la ligne correspondante les paramètres d ́esirés. L’objectif étant donc juste de lancer le code et de lire les commandes indiquées. Une précision est a apporter, c’est que le code ne prend pas les paramètres en pourcentage donc la maturité est exprimée en ann ́ee, et les volatilités et taux d’intérêt sont en base 1.
