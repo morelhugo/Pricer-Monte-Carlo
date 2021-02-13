@@ -24,3 +24,16 @@ Pour pouvoir simuler notre Monte-Carlo il nous faut simuler des lois et des mouv
 <p align="center"> 
  <img src="https://latex.codecogs.com/gif.latex?Z_1&space;=&space;R*cos(\theta)&space;=&space;\sqrt{-2ln(U_1)}*cos(2\pi&space;*U_2)" title="Z_1 = R*cos(\theta) = \sqrt{-2ln(U_1)}*cos(2\pi *U_2)" align="center"/>
 </p>
+
+Remarquons qu'il ne nécessite pas une explication plus formelle concernant ces classes, le nom les explicitant correctement. En revanche, nous nous attarderons sur certaines classes plus importantes et ayant plus d'intérêt.
+
+
+Les classes en rapport aux simulations de mouvements browniens géométriques sont :
+- **CProcess** : Classe mère/fille, elle hérite de **CProbaLaw**. Elle permet également de préparer l’évolution du code a de nouveaux processus stochastiques (type Ornstein-Ulhenbec).
+- **CBrownian** : Classe fille, elle hérite de **CProcess**. Elle viens prendre la loi normale pour l’accroissement du mouvement brownien.
+- **CGeometricBrownian** : Classe fille, elle hérite de **CProcess**. Cette classe permet de simuler le modèle Black and Scholes pour la méthode d’estimation de Monte-Carlo.
+
+## 2 Axe Pay-off:
+
+Une fois que nous avons simulé notre Brownien, nous venons ici calculer nos prix via le Pay-off. Nous utilisons donc des pointeurs pour une instance de ces Pay-off pour calculer, justement, le Pay-off à chaque simulation.
+
