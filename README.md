@@ -45,7 +45,7 @@ Les classes en rapport avec le pay-off sont :
 - **CDiscountFactor** : Cette classe qui ne dépend pas d’autre classe (pas classe fille) permet de modéliser le facteur d’actualisation.
 
 
-Il est intéressant de noté que nous pourrions donc ajouter d’autres classes de pay-off différents comme par exemple un butterfly, un straddle ou un bear-spreadn héritant tous de la classe CPayOff.
+Il est intéressant de noter que nous pourrions donc ajouter d’autres classes de pay-off différents comme par exemple un butterfly, un straddle ou un bear-spreadn héritant tous de la classe CPayOff.
 
 ## 3) Axe Monte-Carlo
 
