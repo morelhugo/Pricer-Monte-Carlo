@@ -105,3 +105,5 @@ Nous avons d ́eveloppé une classe **CInterfacePricer** pour mettre plus au cla
 ![Screenshot](Capture1.png)
 
 <img src="https://github.com/morelhugo/{Pricer-Monte-Carlo}/Image/Capture1.png">
+
+<img src="https://github.com/morelhugo/Pricer-Monte-Carlo/tree/main/ImageCapture1.png">
