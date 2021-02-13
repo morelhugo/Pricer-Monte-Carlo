@@ -9,7 +9,7 @@ Plusieurs classes ont été créées pour implémenter notre code. Concernant l'
 - Un axe **Pay-off**
 - Un axe **Monte-Carlo**
 
-## 1 Axe Loi:
+## 1./ Axe Loi
 
 Pour pouvoir simuler notre Monte-Carlo il nous faut simuler des lois et des mouvements browniens. Tout d'abord rappelons que toutes nos classes découlent d'une seule classe : la classe CProbaLaw. Nous utilisons donc ici l'héritage et le polymorphisme sur toutes les classes qui en découlent. Les classes en rapport aux simulations de la sont:
 - **CProbaLaw** : Classe mère qui est une classe virtuelle pure pour donner la forme des classes filles.
@@ -33,7 +33,7 @@ Les classes en rapport aux simulations de mouvements browniens géométriques so
 - **CBrownian** : Classe fille, elle hérite de **CProcess**. Elle viens prendre la loi normale pour l’accroissement du mouvement brownien.
 - **CGeometricBrownian** : Classe fille, elle hérite de **CProcess**. Cette classe permet de simuler le modèle Black and Scholes pour la méthode d’estimation de Monte-Carlo.
 
-## 2 Axe Pay-off:
+## 2) Axe Pay-off
 
 Une fois que nous avons simulé notre Brownien, nous venons ici calculer nos prix via le Pay-off. Nous utilisons donc des pointeurs pour une instance de ces Pay-off pour calculer, justement, le Pay-off à chaque simulation.
 
@@ -47,11 +47,11 @@ Les classes en rapport avec le pay-off sont :
 
 Il est intéressant de noté que nous pourrions donc ajouter d’autres classes de pay-off différents comme par exemple un butterfly, un straddle ou un bear-spreadn héritant tous de la classe CPayOff.
 
-## 3 Axe Monte-Carlo:
+## 3 Axe Monte-Carlo
 
 Cet axe est scindé en deux sous-parties. La première sous-partie est une définition mathématique basique du concept de Pricing en Monte-Carlo. La seconde sous-partie d ́ecrit son implémentation en C++.
 
-### 3.1 Monte-Carlo, principes fondamentaux:
+### 3.1 Monte-Carlo, principes fondamentaux
 
 Dans le modèle de Black-Scholes, l’évaluation d’un contrat d’option Call (soit le pricing d’un Call), est :
 
