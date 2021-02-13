@@ -59,5 +59,9 @@ Dans le modèle de Black-Scholes, l’évaluation d’un contrat d’option Call
 <img src="https://latex.codecogs.com/gif.latex?P&space;=&space;e^{^rT}E^{\mathbb{Q}}[(S_T-K)^{&plus;}]&space;=&space;e^{^rT}E^{\mathbb{Q}}[(S_0e^{\sigma&space;W_T&plus;(r-\sigma^{2}/2)T}-K)^{&plus;}]" title="P = e^{^rT}E^{\mathbb{Q}}[(S_T-K)^{+}] = e^{^rT}E^{\mathbb{Q}}[(S_0e^{\sigma W_T+(r-\sigma^{2}/2)T}-K)^{+}]" align="center"/>
 </p>
 
+Où:
+- P est le prix du Call
+- r est le taux sans risque
+- T est la maturité
 
 
