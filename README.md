@@ -55,6 +55,9 @@ Cet axe est scindé en deux sous-parties. La première sous-partie est une défi
 
 Dans le modèle de Black-Scholes, l’évaluation d’un contrat d’option Call (soit le pricing d’un Call), est :
 
+<p align="center"> 
+<img src="https://latex.codecogs.com/gif.latex?P&space;=&space;e^{^rT}E^{\mathbb{Q}}[(S_T-K)^{&plus;}]&space;=&space;e^{^rT}E^{\mathbb{Q}}[(S_0e^{\sigma&space;W_T&plus;(r-\sigma^{2}/2)T}-K)^{&plus;}]" title="P = e^{^rT}E^{\mathbb{Q}}[(S_T-K)^{+}] = e^{^rT}E^{\mathbb{Q}}[(S_0e^{\sigma W_T+(r-\sigma^{2}/2)T}-K)^{+}]" align="center"/>
+</p>
 
 
 
