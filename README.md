@@ -63,5 +63,5 @@ Où:
 - P est le prix du Call
 - r est le taux sans risque
 - T est la maturité
-
+- <img src="https://latex.codecogs.com/gif.latex?\mathbb{Q}" title="\mathbb{Q}" align="center"/> est la mesure de probabilité risque neutre
 
