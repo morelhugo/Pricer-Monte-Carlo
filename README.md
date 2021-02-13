@@ -37,3 +37,24 @@ Les classes en rapport aux simulations de mouvements browniens géométriques so
 
 Une fois que nous avons simulé notre Brownien, nous venons ici calculer nos prix via le Pay-off. Nous utilisons donc des pointeurs pour une instance de ces Pay-off pour calculer, justement, le Pay-off à chaque simulation.
 
+Les classes en rapport avec le pay-off sont :
+- **CVanillaOptionBS** : Classe fille, hérité de **CProbaLaw**, elle permet de définir les paramètres du pay-off comme le taux d’intérêt, la volatilité etc. Elle contient un pointeur sur CPayOff.
+- **CPayOff** : Classe mère virtuelle pure elle permet d’instaurer la structure de ses classes filles.
+- **Cput** : Classe fille héritant de CPayOff qui calcule le pay-off d’un put.
+- **CCall** : Classe fille héritant de CPayOff qui calcule le pay-off d’un call.
+- **CDiscountFactor** : Cette classe qui ne dépend pas d’autre classe (pas classe fille) permet de modéliser le facteur d’actualisation.
+
+
+Il est intéressant de noté que nous pourrions donc ajouter d’autres classes de pay-off différents comme par exemple un butterfly, un straddle ou un bear-spreadn héritant tous de la classe CPayOff.
+
+## 3 Axe Monte-Carlo:
+
+Cet axe est scindé en deux sous-parties. La première sous-partie est une définition mathématique basique du concept de Pricing en Monte-Carlo. La seconde sous-partie d ́ecrit son implémentation en C++.
+
+### 3.1 Monte-Carlo, principes fondamentaux:
+
+Dans le modèle de Black-Scholes, l’évaluation d’un contrat d’option Call (soit le pricing d’un Call), est :
+
+
+
+
