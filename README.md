@@ -80,9 +80,9 @@ De plus, considérons <img src="https://latex.codecogs.com/gif.latex?\hat{S}&spa
 </p>
 
 Ceci nous donne donc l'estimateur de Monte-Carlo du prix tel que :
-**<p align="center"> 
+<p align="center"> 
  <img src="https://latex.codecogs.com/gif.latex?\hat{P}_N&space;=&space;\frac{1}{N}\sum_{I=1}^{N}P^{(I)}" title="\hat{P}_N = \frac{1}{N}\sum_{I=1}^{N}P^{(I)}" align="center"/>
-</p>**
+</p>
 
 <p align="center"> 
  <img src="https://latex.codecogs.com/gif.latex?P^{(I)}&space;=&space;e^{-rT}(S_0e^{\sigma&space;\sqrt{T}&space;N^{(I)}&plus;(r-\sigma^2/2)T}-K)^{&plus;}" title="P^{(I)} = e^{-rT}(S_0e^{\sigma \sqrt{T} N^{(I)}+(r-\sigma^2/2)T}-K)^{+}" align="center"/>
