@@ -16,7 +16,7 @@ Pour pouvoir simuler notre Monte-Carlo il nous faut simuler des lois et des mouv
 - **CProbaLawWithMoment** : Classe mère/fille qui est aussi une classe virtuelle pure, cette classe nous retourne les moments d'ordre un et deux. Celle-ci hérite CProbaLaw.
 - **CUniforme** : Classe fille, cette classe hérite de **CProbaLawWithMoment** et permet de simuler la loi uniforme qui nous permettra de simuler la loi normale.
 - **CNormale** : Classe fille, cette classe hérite de **CProbaLawWithMoment** et permet de simuler la loi normale via la méthode de **Box-Muller**. Rapidement, sa définition mathématique est la suivante. Soient <img src="https://latex.codecogs.com/gif.latex?U_1" title="U_1" align="center" />
- et <img src="http://www.sciweavers.org/tex2img.php?eq=U_2&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="U_2" width="24" height="18" /> deux variables aléatoires indépendantes uniformément distribuées dans ]0,1]. Soient,
+ et <img src="https://latex.codecogs.com/gif.latex?U_2" title="U_2" align="center" /> deux variables aléatoires indépendantes uniformément distribuées dans ]0,1]. Soient,
 - <a href="https://fr.wikipedia.org/wiki/M%C3%A9thode_de_Box-Muller" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Z_0&space;=&space;R*cos(\theta&space;)&space;=&space;\sqrt{-2ln(U_1)}*cos(2\pi*U_2)" title="Z_0 = R*cos(\theta ) = \sqrt{-2ln(U_1)}*cos(2\pi*U_2)" /></a>  
 - <a href="https://fr.wikipedia.org/wiki/M%C3%A9thode_de_Box-Muller" target="_blank"><img src="https://latex.codecogs.com/gif.latex Z_1&space;=&space;R*cos(\theta&space;)&space;=&space;\sqrt{-2ln(U_1)}*cos(2\pi*U_2)" title="Z_1 = R*cos(\theta ) = \sqrt{-2ln(U_1)}*cos(2\pi*U_2)" /></a>
 
